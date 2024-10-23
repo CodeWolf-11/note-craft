@@ -10,7 +10,14 @@ const font = Poppins({
 
 function Logo() {
     return (
-        <div>Logo</div>
+        <div className='hidden md:flex items-center gap-x-2'>
+            <Image src={"/notion.svg"} height={40} width={40} alt='Logo' priority />
+            <p className={cn(
+                "font-semibold", font.className
+            )}>
+                NoteCraft
+            </p>
+        </div>
     )
 }
 
