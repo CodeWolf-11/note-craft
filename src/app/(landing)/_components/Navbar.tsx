@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 function Navbar() {
     return (
-        <div>
+        <div className='flex'>
             <Logo />
         </div>
     )
