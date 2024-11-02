@@ -5,6 +5,7 @@ function Navbar() {
     return (
         <div className='flex'>
             <Logo />
+            Navbar
         </div>
     )
 }
