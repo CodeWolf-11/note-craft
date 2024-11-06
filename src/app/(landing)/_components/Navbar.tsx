@@ -3,7 +3,7 @@ import Logo from './Logo'
 
 function Navbar() {
     return (
-        <div className='flex'>
+        <div className='flex justify-between'>
             <Logo />
             Navbar
         </div>
